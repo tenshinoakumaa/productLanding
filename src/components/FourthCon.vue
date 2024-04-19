@@ -30,11 +30,7 @@
         >
       </div>
     </div>
-    <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSfVKIV2GiiJfubXACl8BTjLdpeCYo1FeQ3dDowLPQKMwtxjjQ/viewform"
-    >
-      <button class="greenButton">ЗАКАЗАТЬ</button></a
-    >
+    <button class="greenButton">ЗАКАЗАТЬ</button>
   </div>
 </template>
 
