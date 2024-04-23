@@ -32,17 +32,18 @@
 
 <style scoped>
 .con {
-  background: #d9d9d98c;  
+  background: #d9d9d98c;
 }
 
 .bordered {
   border: 3px solid #e3b253;
   background: #d9d9d991;
   padding: 2rem;
+  font-family: url("../fonts/NotoSerifTamilSlanted-Regular.otf");
 }
 
 .mainText {
-  font-family: NotoSerifTamilSlanted;
+  font-family: url("../fonts/NotoSerifTamilSlanted-Regular.otf");
   font-size: 50px;
   font-style: italic;
   font-weight: 400;

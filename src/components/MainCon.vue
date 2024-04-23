@@ -26,9 +26,9 @@
         <img src="../assets/mainConImg.svg" alt="" />
       </div>
     </div>
-    <div class="callButton" @click="handleClick">
+    <!-- <div class="callButton" @click="handleClick">
       <img src="../assets/callIcon.svg" alt="" />
-    </div>
+    </div> -->
   </div>
 
   <request-modal ref="requestmodal">
@@ -94,16 +94,15 @@ export default {
   text-align: left;
 }
 .con {
-  background: linear-gradient(180deg, #01181d 0%, #506E78 100%);
+  background: linear-gradient(180deg, #01181d 0%, #506e78 100%);
 }
 
 .primary-color {
-  font-family: Ovo;
+  font-family: url('../fonts/NotoSerifTamilSlanted-Regular.otf');
   font-size: 80px;
   font-weight: 400;
   line-height: 120px;
   text-align: left;
-  font-weight: bold;
 }
 
 .second-text {
@@ -111,5 +110,7 @@ export default {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
+  text-align: left;
+  
 }
 </style>

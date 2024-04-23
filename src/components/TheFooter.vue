@@ -1,5 +1,5 @@
 <template>
-  <div class="con py-28" id="footer">
+  <div class="con py-14" id="footer">
     <div id="modal" class="modal" style="display: none">
       <div class="modal-content">
         <span class="close" @click="closeModal">&times;</span>
